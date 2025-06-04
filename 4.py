@@ -16,7 +16,7 @@ def find_s_algorithm(file_path):
                     hypothesis[i] = '?'
     return hypothesis
 
-file_path = 'C:\\Users\\ronee\Downloads\\training_data.csv'
+file_path = 'training_data.csv'
 hypothesis = find_s_algorithm(file_path)
 print("\nThe final hypothesis is:", hypothesis)
 '''https://drive.google.com/file/d/1Rrd5g8ubqol-foT6Fz7guM6GK6J71ujH/view'''
